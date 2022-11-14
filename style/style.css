@@ -1,0 +1,109 @@
+/* ! ROOT  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ! Body */
+body{
+    height: 100vh;
+}
+
+/* Navbar */
+
+[aria-label="navbar"]{
+    width: 100vw;
+    height: 6rem;
+    align-items: center;
+    display: flex;
+    color: #CAD5E2;
+    background-color: black;
+}
+
+.navbar {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:8rem;
+}
+
+.line{
+    height: 3rem;
+    width: .1rem;
+    background-color: #fff;
+    margin: 0 3rem;
+}
+.grow-list{
+    flex-grow: 1;
+}
+
+.list{
+    list-style:none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-item{
+    margin-right: 2rem;
+}
+
+.btn{
+    background-color: #b90ec4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.button-small{
+    padding: .6rem 2rem;
+    font-weight: 700;
+}
+
+/* ! Hero Section */
+
+/* * bg  */
+[aria-label="hero"]{
+    height: 90vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.50), rgba(0,0,0, .50)), url(../assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.hero-heading{
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.3;
+    font-weight: 600;
+    padding-top: 10rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-description{
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 0;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.button-large{
+    font-size: 20px;
+    margin-top: 1rem;
+    padding: .6rem 3rem;
+    font-family: 'Poppins';
+}
